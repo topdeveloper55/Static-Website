@@ -1,13 +1,11 @@
 import React from 'react';
 
-function Stream({ pages = [] }) {
+function Stream({
+  pages = []
+}) {
   return (
     <div>
-      {
-        pages.map((page, key) =>
-          <div className="page" key={key}>{page.name}</div>
-        )
-      }
+      {pages.map((page, key) => <div className="page" key={key}>{page.name}</div>)}
     </div>
   );
 }
