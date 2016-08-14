@@ -23,8 +23,7 @@ npm start
 ```
 Currently, the landing page will show a simple list of future website pages, as shown below
 
-![React Static Website Landing Page](https://cloud.githubusercontent.com/assets/9534794/17646280/135e748a-6191-11e6-9ddd-0bb7c72145e3.png)
-
+![React Static Website Landing Page](https://cloud.githubusercontent.com/assets/9534794/17646320/752403f0-6192-11e6-839c-af483d68967e.png)
 
 ESLint, Hot Loading, and Webpack Integration
 -----
