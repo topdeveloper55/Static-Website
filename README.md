@@ -1,5 +1,5 @@
 # React Static Website Starter Project
-This repo is an example of a React static weebsite.  The project has the following features:
+This repo is an example of a React static website.  The project has the following features:
 * ES6 code
 * Babel v6 transpilation
 * ESLint integration
