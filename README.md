@@ -19,7 +19,12 @@ git clone https://github.com/bobbrady/react-static-website.git
 cd react-static-website
 npm install
 npm start
+// browse to http://localhost:8080
 ```
+Currently, the landing page will show a simple list of future website pages, as shown below
+
+![React Static Website Landing Page](https://cloud.githubusercontent.com/assets/9534794/17646280/135e748a-6191-11e6-9ddd-0bb7c72145e3.png)
+
 
 ESLint, Hot Loading, and Webpack Integration
 -----
