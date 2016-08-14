@@ -47,5 +47,13 @@ module: {
 
 Odds 'N Ends
 -----
+### Linting
 * The AirBnB eslint rules set is used for linting.
 * Rule exceptions of allowing jsx in js and a few more are allowed.
+
+### Webpack
+ES6 code is used in the webpack config JS file.  In order to run the config through the Babel transpiler, it had to be named with the convention _webpack.config.[LOADER].js_.  So in this case, it had to be named _webpack.config.babel.js in order for it to run without error.
+
+The reason for using ES6 code in the webpack config was to use the built-in path module of node.  Concatenation of the build dir to the current dir variable caused an eslint error that recommended fixing with use of the path module API.
+
+See [Webpack Issue 1403](https://github.com/webpack/webpack/issues/1403) for discussion about the _webpack.config.[LOADER]js config.
