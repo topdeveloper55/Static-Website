@@ -47,5 +47,5 @@ module: {
 
 Odds 'N Ends
 -----
-* The AirBnB eslint rules set it used.
-* Override linting rules are used for tabs instead of spaces, etc.
+* The AirBnB eslint rules set is used for linting.
+* Rule exceptions of allowing jsx in js and a few more are allowed.

@@ -8,8 +8,6 @@
       "import/no-extraneous-dependencies": ["error", { devDependencies: true }],
       "comma-dangle": ["error", "never"],
       "max-len": [1, 120, 2, {ignoreComments: true}],
-      "indent": [2, "tab"],
-      "react/jsx-indent": [2, "tab"],
       "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   }
 }
