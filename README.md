@@ -16,7 +16,7 @@ Usage
 
 Clone, install, and run.  Webpack will run the ES6 code through eslint during start.
 ```
-git clone https://github.com/joaqperalta/Static-Website.git
+git clone https://github.com/topdeveloper55/Static-Website.git
 cd Static-Website
 npm install
 npm start
